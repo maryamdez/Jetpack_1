@@ -128,7 +128,7 @@ class MainActivity : ComponentActivity() {
         LazyColumn(
             modifier = Modifier                                             // تفاوت LazyColumn با Column: داینامیک .که برای فهرست های طولانی استفاده میشه .در Recy از Lazy استفاده میشه.خودش قابلیت Scroll داره.Column ساده تر و کوچکتر هست .برای فهرست های کوچکتر هست.
                 .fillMaxHeight()
-                .width(250.dp)
+                .width(450.dp)
                 .background(Color.Red)
                 .padding(WindowInsets.statusBars.asPaddingValues())                     //از نوار بالا که ساعت داره فاصله میگیره
                 .padding(16.dp)                                                         //این padding قبل از دستور بالا میشه margin
